@@ -35,6 +35,17 @@ body {
     "footer footer footer footer footer footer";
   /* grid-column-gap: 10px; - if you want gap between the columns */
 }
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
 .left,
 .middle,
 .right {
