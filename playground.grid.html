@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            border: 1px solid red;
+        }
+
+        /* Global settings */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-areas:
+                'header header header'
+                'sidebar content content'
+                'footer footer footer';
+            grid-template-columns: 200px 1fr;
+            grid-template-rows: auto 1fr auto;
+            height: 100vh;
+        }
+
+        /* Layout areas */
+        .header {
+            grid-area: header;
+            background-color: #4CAF50;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+
+        .sidebar {
+            grid-area: sidebar;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        .content {
+            grid-area: content;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        /* Footer styling */
+        .footer {
+            grid-area: footer;
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Nested grid inside the content area */
+        .nested-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 20px;
+            margin-top: 20px;
+        }
+
+        .nested-item {
+            background-color: #ddd;
+            padding: 20px;
+            text-align: center;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="grid-container">
+        <header class="header">Header</header>
+        <aside class="sidebar">Left Sidebar</aside>
+        <main class="content">
+            <div class="nested-grid">
+                <div class="nested-item">Nested Item 1</div>
+                <div class="nested-item">Nested Item 2</div>
+                <div class="nested-item">Nested Item 3</div>
+                <div class="nested-item">Nested Item 4</div>
+            </div>
+        </main>
+        <footer class="footer">Footer</footer>
+    </div>
+
+</body>
+
+</html>
