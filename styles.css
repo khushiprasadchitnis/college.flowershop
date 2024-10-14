@@ -5,7 +5,7 @@
   --main-color-menu-background: rgba(255, 0, 242, 0.644);
   --content-color-background: transparent;
   --content-color-foreground: black;
-  --header-color-background: rgb(204, 0, 255);
+  --header-color-background: rgba(204, 0, 255, 1);
   --header-color-foreground: white;
 }
 
