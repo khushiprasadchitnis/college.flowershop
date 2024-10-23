@@ -1,9 +1,5 @@
 :root {
-  --main-color-background: white;
-
-  --main-color-menu-foreground: rgb(233, 230, 232);
   --main-color-menu-background: rgba(255, 0, 242, 0.644);
-  --content-color-background: transparent;
   --content-color-foreground: black;
   --header-color-background: rgba(204, 0, 255, 1);
   --header-color-foreground: white;
@@ -20,15 +16,6 @@
 body {
   background-color: var(--main-color-background);
   font-family: Arial, Helvetica, sans-serif;
-}
-
-
-.grid-container {
-  display: grid;
-  grid-template-areas:
-    "header header header header header"
-    "left   middle middle middle right"
-    "footer footer footer footer footer";
 }
 
 .header {
@@ -58,7 +45,7 @@ body {
 
 .right {
   grid-area: right;
-}
+} 
 
 .content {
   background-color: var(--content-color-background);
@@ -98,15 +85,6 @@ li a {
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
-  background-color: green;
-}
-
-li a.active {
-  color: black;
-  background-color: var(--main-color-menu-background);
-}
-
 .topnav {
   background-color: var(--main-color-menu-background);
   overflow: hidden;
@@ -130,8 +108,6 @@ li a.active {
   background-color: transparent;
   color: white;
 }
-
-
 
 .dropbtn {
   background-color: #2dbde0;
@@ -182,15 +158,30 @@ li a.active {
   color: #7e29ce;
 }
 
+.container {
+  position: relative; 
+  max-width: 800px;
+  margin: 0 auto;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
-.container {
-  position: relative;
-  max-width: 800px;
-  margin: 0 auto;
-}
 
+.workshop{
+    border-radius: 50%;
+
+}
