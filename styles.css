@@ -151,13 +151,6 @@ li a {
   background-color: #3e8e41;
 }
 
-.font {
-  font-size: large;
-  font-family: sans-serif;
-  font-weight: 600;
-  color: #7e29ce;
-}
-
 .container {
   position: relative; 
   max-width: 800px;
@@ -186,3 +179,9 @@ li a {
     height: 300px;
     width: 300px;
 }
+
+.font {
+  font-size: large;
+  font-family: sans-serif;    
+}
+
