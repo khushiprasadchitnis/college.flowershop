@@ -169,15 +169,8 @@ li a {
 
 /* Clear floats after the columns */
 .row:after {
-  content: "";
   display: table;
   clear: both;
-}
-
-.workshop{
-    border-radius: 50%;
-    height: 300px;
-    width: 300px;
 }
 
 .contact{
