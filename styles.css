@@ -177,8 +177,16 @@ li a {
   font-size: large;
   font-family: sans-serif;    
   text-align: left;
-}
-
+  background: url("lib/img/backgroundcontact.png")
+            width: 500px;
+            height: 800px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            border: 0.25rem solid black;
+            margin-left: 10%;
+            margin-top: 5%;
+            margin-right: 10%;
+        }
 
 form {
   position: absolute;
