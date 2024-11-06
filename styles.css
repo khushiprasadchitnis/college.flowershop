@@ -180,6 +180,7 @@ li a {
   height: 800px;
   background-repeat: no-repeat;
   background-size: contain;
+  border: 0.25rem solid black;
   margin-left: 10%;
   margin-top: 5%;
   margin-right: 10%;
