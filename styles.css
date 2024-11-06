@@ -9,7 +9,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  text-align:center;  
+  text-align: center;
   color: #cc142c;
 }
 
@@ -45,14 +45,12 @@ body {
 
 .right {
   grid-area: right;
-} 
+}
 
 .content {
   background-color: var(--content-color-background);
   color: var(--content-color-foreground);
 }
-
-
 
 /* Responsive layout - makes the three columns stack */
 @media (max-width: 600px) {
@@ -152,7 +150,7 @@ li a {
 }
 
 .container {
-  position: relative; 
+  position: relative;
   max-width: 800px;
   margin: 0 auto;
 }
@@ -173,26 +171,30 @@ li a {
   clear: both;
 }
 
-.contact{
+.contact {
   font-size: large;
-  font-family: sans-serif;    
+  font-family: sans-serif;
   text-align: left;
-  background-image: url("lib/img/backgroundcontact.png");
-            width: 500px;
-            height: 800px;
-            background-repeat: no-repeat;
-            background-size: contain;
-            border: 0.25rem solid black;
-            margin-left: 10%;
-            margin-top: 5%;
-            margin-right: 10%;
-        
- }
+  background-image: url("lib/img/contact.webp");
+  width: 500px;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-right: 10%;
+}
 
 form {
   position: absolute;
-  left: ;
-  width: %;
-  border: 3px solid #73AD21;
+  left: 25%;
+  width: 50%;
+  border: 3px solid #73ad21;
   padding: 10px;
-} 
+}
+
+div.contact > form > input[type="submit"] {
+  background-color: green;
+  color: white;
+  padding: 5px 10px 5px 10px;   
+}
