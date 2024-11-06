@@ -176,8 +176,8 @@ li a {
   font-family: sans-serif;
   text-align: left;
   background-image: url("lib/img/contact.webp");
-  width: 50%;
-  height: 50%;
+  width: 500px;
+  height: 800px;
   background-repeat: no-repeat;
   background-size: contain;
   border: 0.25rem solid black;
