@@ -187,8 +187,6 @@ li a {
 }
 
 form {
-  position: absolute;
-  left: 25%;
   width: 50%;
   border: 3px solid #73ad21;
   padding: 10px;
