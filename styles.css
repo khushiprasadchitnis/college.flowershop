@@ -87,6 +87,7 @@ li a {
   background-color: var(--main-color-menu-background);
   overflow: hidden;
   text-align: right;
+  width: 900px;
 }
 
 .topnav a {
@@ -95,11 +96,13 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  
 }
 
 .topnav a:hover {
   background-color: #d766ee;
   color: rgb(253, 40, 32);
+  width: 900px;
 }
 
 .topnav a.active {
@@ -190,6 +193,7 @@ form {
   width: 50%;
   border: 3px solid #73ad21;
   padding: 10px;
+  align:right;
 }
 
 div.contact > form > input[type="submit"] {
