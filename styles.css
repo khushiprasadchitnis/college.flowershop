@@ -208,3 +208,13 @@ div.contact > form > input[type="submit"] {
 .frontimg{
   width::fit-content
 }
+.heading{
+  background-image: url("lib/img/backgroundheader.jpg");
+  width: 500px;
+  height:150px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-right: 10%;
+}
