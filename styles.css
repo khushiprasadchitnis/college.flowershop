@@ -209,7 +209,7 @@ div.contact > form > input[type="submit"] {
   width::fit-content
 }
 .heading{
-  background-image: url("lib/img/backgroundheader.jpg");
+ 
   width: 500px;
   height:150px;
   background-repeat: no-repeat;
@@ -217,4 +217,12 @@ div.contact > form > input[type="submit"] {
   margin-left: 10%;
   margin-top: 5%;
   margin-right: 10%;
+}
+body {
+  background-image: url("lib/img/background.jpg");
+  background-size: cover;  /* Makes sure the image covers the entire page */
+  background-position: center;  /* Centers the background image */
+ 
+  height: 100vh;  /* Full height of the viewport */
+  margin: 0;  /* Remove any default margin */
 }
