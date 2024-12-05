@@ -85,7 +85,6 @@ li a {
 }
 
 .topnav {
-  background-color: var(--main-color-menu-background);
   overflow: hidden;
   text-align: right;
   width: 900px;
