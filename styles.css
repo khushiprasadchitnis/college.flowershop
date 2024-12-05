@@ -85,6 +85,7 @@ li a {
 }
 
 .topnav {
+
   overflow: hidden;
   text-align: right;
   width: 900px;
@@ -191,8 +192,8 @@ li a {
 
 form {
   width: 50%;
-  border: 3px solid #73ad21;
-  padding: 10px;
+ 
+  padding: 25px 50px 65px 200px;
   align:right;
 }
 
