@@ -103,7 +103,7 @@ li a {
 .topnav a:hover {
   background-color: #d766ee;
   color: rgb(253, 40, 32);
-  width: 900px;
+ 
 }
 
 .topnav a.active {
