@@ -10,7 +10,7 @@
   margin: 0;
   padding: 0;
   text-align: center;
-  color: #cc142c;
+  color: black;
 }
 
 body {
@@ -175,20 +175,7 @@ li a {
   clear: both;
 }
 
-.contact {
-  font-size: large;
-  font-family: sans-serif;
-  text-align: left;
-  background-image: url("lib/img/contact.webp");
-  width: 500px;
-  height: 800px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  border: 0.25rem solid black;
-  margin-left: 10%;
-  margin-top: 5%;
-  margin-right: 10%;
-}
+
 
 form {
   width: 50%;
@@ -219,10 +206,7 @@ div.contact > form > input[type="submit"] {
   margin-right: 10%;
 }
 body {
-  background-image: url("lib/img/background.jpg");
-  background-size: cover;  /* Makes sure the image covers the entire page */
-  background-position: center;  /* Centers the background image */
- 
+  background-color: rgb(231, 178, 231);
   height: 100vh;  /* Full height of the viewport */
   margin: 0;  /* Remove any default margin */
 }
