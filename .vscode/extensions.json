@@ -1,5 +1,9 @@
 {
     "recommendations": [
-        "esbenp.prettier-vscode"
+        "ms-vscode-remote.remote-containers",
+        "esbenp.prettier-vscode",
+        "ms-vscode.live-server",
+        "peterschmalfeldt.explorer-exclude",
+        "ms-azuretools.vscode-docker"
     ]
 }
