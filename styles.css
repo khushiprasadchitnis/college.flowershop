@@ -1,3 +1,4 @@
+/* Global Styles: */
 :root {
   --main-color-menu-background: rgba(255, 0, 242, 0.644);
   --content-color-foreground: black;
@@ -5,7 +6,10 @@
   --header-color-foreground: white;
 }
 
+/* Global settings */
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
