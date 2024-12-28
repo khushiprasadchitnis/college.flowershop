@@ -210,11 +210,9 @@ div.contact > form > input[type="submit"] {
   margin-right: 10%;
 }
 body {
- 
   height: 100vh;  /* Full height of the viewport */
   margin: 0;  /* Remove any default margin */
 }
 h1{
-
   color: #a51717;
 }
