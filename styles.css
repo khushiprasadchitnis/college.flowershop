@@ -186,13 +186,6 @@ form {
   padding: 75px 100px 50px 150px;
   align:right;
 }
-
-div.contact > form > input[type="submit"] {
-  background-color: green;
-  color: white;
-  padding: 5px 10px 5px 10px;   
-}
-
 .about{
     color: #3e8e41;
 }
