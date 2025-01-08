@@ -2,58 +2,80 @@
 <html lang="en">
 
 <head>
-  <link rel="stylesheet" href="styles.css" />
+
+    <title>Contact Us</title>
 </head>
 
-<body>
-  <div class="grid-container">
-    <div class="header">
-      <div class="topnav">
-        <a href="index.html" class="active">Home</a>
-        <a href="about.html">Abouts</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="contact.html">Contact</a>
-      </div>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0;">
+
+
+    <div style="background-color: magenta; padding: 15px; text-align: center; color: white;">
+        <a href="index.html" style="margin: 0 15px; text-decoration: none; color: white; font-size: 20px;">Home</a>
+        <a href="about.html" style="margin: 0 15px; text-decoration: none; color: white; font-size: 20px;">Abouts</a>
+        <a href="gallery.html" style="margin: 0 15px; text-decoration: none; color: white; font-size: 20px;">Gallery</a>
+        <a href="contact.html" style="margin: 0 15px; text-decoration: none; color: white; font-size: 20px;">Contact</a>
     </div>
-  </div>
-  <div class="contact">
-    <h1>Contact Us</h1>
-  </div>
-  <h3>Fill up the form and our team will get back to you within 24 hours.<br>
-    Address:123 Main Street Anytown ST 45678<br>
-    Call us:+91 9867543256/+91 8845372836<br>
-    G-mail: flower345@gmail.com<br></h3>
-  <br><br> <br><br>
-  <div>
-    <h2>Why is this form useful?</h2>
-    <h4>1.Customer Management: It helps in organizing customer information, making it easier to contact them.<br>
-      2.Service Improvement: Businesses can improve their services by understanding customer preferences and needs.<br>
-      3.Business Growth: Feedback or requests from customers can help develop new products or services.<br></h4>
-  </div><br><br> <br><br>
-  <div>
-    <form>
-      <h3>
-        <label for="fname">Name:</label>
-        <input type="text" id="fname" name="fname"><br><br>
-        <label for="fname">Address:</label>
-        <input type="text" id="fname" name="fname"><br><br>
-        <label for="fname">Contact:</label>
-        <input type="text" id="fname" name="fname"><br><br>
-        <label for="fname">E-mail:</label>
-        <input type="text" id="fname" name="fname"><br><br>
-        <label for="fname">Gender:</label>
-        <input type="radio" id="fname" name="fname">Male
-        <input type="radio" id="fname" name="fname">Female<br><br>
-        <label for="fname">What service do you need?:</label><br><br>
-        <input type="checkbox">Product Purchase<br>
-        <input type="checkbox"> Service Inquiry<br>
-        <input type="checkbox">Complaint Registration<br>
-        <button class="btn submit">Submit</button>
-        <button class="btn reset">Reset</button>
-      </h3>
-    </form>
-  </div>
-  </div>
+
+
+    <div style="padding: 20px; text-align: center;">
+        <h1 style="color: brown;">Contact Us</h1>
+        <p>Fill up the form and our team will get back to you within 24 hours.</p>
+        <p>
+            Address: 123 Main Street Anytown ST 45678 <br>
+            Call us: +91 9867543256 / +91 8845372836 <br>
+            G-mail: flower345@gmail.com
+        </p>
+
+        <div style="text-align: left; margin: 20px auto; width: 60%; padding: 20px; border-radius: 5px;">
+            <h3>Why is this form useful?</h3>
+            <ol>
+                <li>Customer Management: It helps in organizing customer information, making it easier to contact them.
+                </li>
+                <li>Service Improvement: Businesses can improve their services by understanding customer preferences and
+                    needs.</li>
+                <li>Business Growth: Feedback or requests from customers can help develop new products or services.</li>
+            </ol>
+        </div>
+
+        <form style="margin: 0 auto; width: 60%; text-align: left;">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"
+                style="width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 3px;"><br>
+
+            <label for="address">Address:</label><br>
+            <input type="text" id="address" name="address"
+                style="width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 3px;"><br>
+
+            <label for="contact">Contact:</label><br>
+            <input type="text" id="contact" name="contact"
+                style="width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 3px;"><br>
+
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email"
+                style="width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 3px;"><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+
+            <label>What service do you need?:</label><br>
+            <input type="checkbox" id="product" name="service" value="product">
+            <label for="product">Product Purchase</label><br>
+            <input type="checkbox" id="inquiry" name="service" value="inquiry">
+            <label for="inquiry">Service Inquiry</label><br>
+            <input type="checkbox" id="complaint" name="service" value="complaint">
+            <label for="complaint">Complaint Registration</label><br><br>
+
+            <div style="text-align: center;">
+                <button type="submit"
+                    style="padding: 10px 25px; background-color: rgb(7, 134, 7); color: white; border: none; border-radius: 5px; cursor: pointer;">Submit</button>
+                <button type="reset"
+                    style="padding: 10px 25px; background-color: gray; color: white; border: none; border-radius: 5px; cursor: pointer;">Reset</button>
+            </div>
+        </form>
+    </div>
 </body>
 
 </html>
